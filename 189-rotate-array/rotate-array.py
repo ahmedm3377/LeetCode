@@ -4,7 +4,9 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        for i in range(1,k+1):
+        for i in range(1, k + 1):
             x = nums.pop(-1)
             nums.insert(0,x)
+
+        
         
